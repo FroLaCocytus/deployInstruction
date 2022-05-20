@@ -6,6 +6,7 @@
 
 <h2>Node.js</h2>
 Установим nodejs:
+
 ```
 $ sudo apt install nodejs
 ```
