@@ -66,12 +66,15 @@ pm2 -v
 ```
 
 <h2>Certbot (клиент, который получает бесплатный сертификат SSL от Let’s Encrypt)</h2>
-Убедимся, что версия snap обновлена:
+Убедимся, что версия snapd обновлена:
 
 ```
 sudo snap install core; sudo snap refresh core
 ```
-
+Если snapd не установлен, тогда устанавливаем:
+```
+sudo apt install snapd
+```
 Установим Certbot:
 ```
 sudo snap install --classic certbot
