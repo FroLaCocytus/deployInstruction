@@ -109,6 +109,7 @@ $ mkdir project && cd project
 ```
 $ git clone git@gitlab.com:your/project/frontend.git
 ```
+Устанавливаем зависимости node_modules:
 
 
 
