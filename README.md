@@ -80,10 +80,11 @@ sudo apt install snapd
 sudo snap install --classic certbot
 ```
 
-Проверим что установка Certbot прошла успешно:
+Подготовим Certbot к работе:
 ```
 sudo ln -s /snap/bin/certbot /usr/bin/certbot
 ```
+
 
 
 
