@@ -84,6 +84,9 @@ sudo snap install --classic certbot
 ```
 sudo ln -s /snap/bin/certbot /usr/bin/certbot
 ```
+<h2>Как это должно работать???</h2>
+
+
 
 
 
