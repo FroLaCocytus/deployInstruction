@@ -86,7 +86,7 @@ sudo ln -s /snap/bin/certbot /usr/bin/certbot
 ```
 <h2>Как это должно работать???</h2>
 
-![schema](./server.phg)
+![schema](deployInstruction/server.png)
 
 
 
