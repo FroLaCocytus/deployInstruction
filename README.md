@@ -86,8 +86,12 @@ sudo snap install --classic certbot
 sudo ln -s /snap/bin/certbot /usr/bin/certbot
 ```
 <h2>Как это должно работать???</h2>
+<figure class="sign">
+  <p><img src="img/server.png"></p>
+  <figcaption>Блок-схема развертывания Frontend и Backend на одной машине</figcaption>
+</figure>
 
-![schema](img/server.png  "RTre")
+
 
 
 
