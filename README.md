@@ -67,6 +67,7 @@ $ pm2 -v
 
 <h2>Certbot (клиент, который получает бесплатный сертификат SSL от Let’s Encrypt)</h2>
 Убедимся, что версия snap обновлена:
+
 ```
 $ sudo snap install core; sudo snap refresh core
 ```
