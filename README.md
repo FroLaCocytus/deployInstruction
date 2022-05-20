@@ -1,6 +1,6 @@
 <h1>Развертывание приложения написанного на React и Node.js на сервере с помощью PM2 и Nginx</h1>
 Цель этой статьи — задокументировать мой путь по процессу развертывания Frontend и Backend на одном компьютере с Linux (вместе с балансировщиком нагрузки).
-Оригинальная статья на английском языке https://medium.com/geekculture/deploying-a-react-app-and-a-node-js-server-on-a-single-machine-with-pm2-and-nginx-15f17251ee74
+Оригинальная статья на английском языке [здесь](https://medium.com/geekculture/deploying-a-react-app-and-a-node-js-server-on-a-single-machine-with-pm2-and-nginx-15f17251ee74)
 
 <h2 style="backgroud-color: #BFEBED">Установка необходимых компонентов</h2>
 Обратите внимание, что эти инструкции действительны для Ubuntu 16 или более поздней версии.
@@ -87,7 +87,7 @@ sudo ln -s /snap/bin/certbot /usr/bin/certbot
 ```
 <h2>Как это должно работать???</h2>
 
-![schema](img/server.png)
+![schema](img/server.png  "RTre")
 
 
 
