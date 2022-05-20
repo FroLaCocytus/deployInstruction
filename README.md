@@ -99,7 +99,16 @@ nproc
 
 В оригинальной статье у автора 4 ядра поэтому кому интересна балансировка нагрузки вам [сюда](https://medium.com/geekculture/deploying-a-react-app-and-a-node-js-server-on-a-single-machine-with-pm2-and-nginx-15f17251ee74).
 
+<h2>Развертывание Front-end</h2>
+Тут будет обычное развертывание Frontend, сначала клонируем репозиторий проекта, устанавливаем свои зависимости и запускаем скрипт сборки.
 
+Клонируем свой репозиторий:
+```
+$ mkdir project && cd project
+```
+```
+$ git clone git@gitlab.com:your/project/frontend.git
+```
 
 
 
