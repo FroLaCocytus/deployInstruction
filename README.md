@@ -88,9 +88,10 @@ sudo ln -s /snap/bin/certbot /usr/bin/certbot
 <h2>Как это должно работать???</h2>
 <figure class="sign">
   <p><img src="img/server.png"></p>
-  <figcaption style="vertical-align:middle"><i>Блок-схема развертывания Frontend и Backend на одном сервере<i></figcaption>
+  <figcaption><i>Блок-схема развертывания Frontend и Backend на одном сервере</i></figcaption>
 </figure>
 
+    
 Nginx будет обслуживать наши файлы сборки React и помогать балансировать нагрузку нашего серверного приложения через наши экземпляры PM2 Node.js. Количество экземпляров Node.js прямо пропорционально количеству ядер вашего процессора. Чтобы проверить, сколько ядер у вашего процессора Linux, просто выполните следующую команду:
 ```
 nproc
